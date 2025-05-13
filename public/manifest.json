@@ -5,13 +5,12 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#3b82f6",
-  "icons": [
+  "theme_color": "#3b82f6",  "icons": [
     {
       "src": "/wallzee.svg",
       "sizes": "any",
       "type": "image/svg+xml",
-      "purpose": "any"
+      "purpose": "any maskable"
     }
   ]
 }

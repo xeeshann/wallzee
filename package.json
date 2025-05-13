@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "generate-sitemap": "node scripts/generate-sitemap.js",
-    "postinstall": "echo 'If you encounter peer dependency issues, run: npm install --legacy-peer-deps'"
+    "install:deps": "npm install --legacy-peer-deps"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.6",
