@@ -1,0 +1,23 @@
+
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.phone-bounce {
+  animation: bounce 5s ease-in-out infinite;
+}
+
+.phone-shadow {
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.2));
+  transition: filter 0.5s ease;
+}
+
+.phone-shadow:hover {
+  filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.3));
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Wallzee - Premium HD Wallpapers",
+  "short_name": "Wallzee",
+  "description": "Download beautiful, high-quality wallpapers for desktop and mobile devices.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/wallzee.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
